@@ -1,0 +1,9 @@
+kivy[base]
+numpy
+opencv-python
+openai
+transformers
+jupyterlab
+ipywidgets
+loguru
+git+https://github.com/neuroevolution-ai/NaturalNets.git

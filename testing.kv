@@ -1,0 +1,17 @@
+
+<MainLayout>:
+    orientation: "vertical"
+    Image:
+        id: image_container
+        allow_stretch: True
+    BoxLayout:
+        size_hint_y: None
+        height: 50
+        orientation: "horizontal"
+        TextInput:
+            id: input_field
+            hint_text: "Enter command"
+            multiline: False
+        Button:
+            text: "Execute"
+            on_press: root.execute_command()
